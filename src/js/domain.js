@@ -1,4 +1,2 @@
-
-//? imp/exp
-
 class Character {}
+export default Character;

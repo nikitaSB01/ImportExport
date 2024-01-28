@@ -1,5 +1,4 @@
-
-//? imp/exp
+import Character from "./domain.js";
 
 class Game {
   start() {
@@ -12,3 +11,6 @@ class GameSavingData {}
 function readGameSaving() {}
 
 function writeGameSaving() {}
+
+export default Game;
+export { GameSavingData, readGameSaving, writeGameSaving };
